@@ -4,9 +4,14 @@ require_relative "../fancy_dance.rb"
 
 angelina = Kid.new("Angelina")
 mikhail_baryshnikov = Dancer.new("Mikhail")
-buster = Kid.new("Buster")
 
 puts "#{angelina.name} says: #{angelina.twirl}"
 puts "#{mikhail_baryshnikov.name} says: #{mikhail_baryshnikov.take_a_bow}"
 
+angelina = Dancer.new
+angelina.twirl
+angelina. jump
 
+buster = Kid.new
+buster.jump
+buster.take_a_bow
